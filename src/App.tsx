@@ -1,6 +1,11 @@
+import "./App.css";
+import BasicTable from "./BasicTable";
+
 function App() {
 
-  return <h1>Table App</h1>
+  return <div className="mainContainer">
+    <BasicTable />
+  </div>
 }
 
 export default App
